@@ -8,14 +8,14 @@ public:
         int end = n-1;
         int mid = (begin + end)/2;
 
-        while( mid != begin ){
+        while( begin <= end ){
             if( target == A[mid] ){
                 return mid;
             }
             if( target < A[mid] ){
-                end = mid;
+                end = mid-1;
             }else{
-                begin = mid;
+                begin = mid+1;
             }
             mid = (begin + end)/2;
         }
