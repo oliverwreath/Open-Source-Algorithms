@@ -8,25 +8,17 @@ public:
         int end = n-1;
         int mid = (begin + end)/2;
 
-        while( mid != begin ){
+        while( begin <= end ){
             if( target == A[mid] ){
                 break;
             }
             if( target < A[mid] ){
-                end = mid;
+                end = mid-1;
             }else{
-                begin = mid;
+                begin = mid+1;
             }
             mid = (begin + end)/2;
         }
-
-        while( (mid + 1 <= n-1) && target > A[mid] ){
-            mid++;
-        }
-        while( (mid - 1 >= 0) && target < A[mid] ){
-            mid--;
-        }
-
 
         if( A[mid] != target ){
             return vector<int>(2, -1);
