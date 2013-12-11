@@ -1,6 +1,6 @@
 ### leetcode
 
-#### Enjoy Coding! 
+#### Happy Coding! 
 - Divide Two Integers.cpp
 - Create Divide Two Integers.cpp
 - LRU Cache.cpp
