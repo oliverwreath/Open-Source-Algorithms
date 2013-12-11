@@ -18,28 +18,32 @@ public:
             visited[i][j] = true;
         }
 
-        bool ret = false;
+        bool ret;
         if( i-1 >= 0 && !visited[i-1][j] ){
             string tmp = s.substr(1,len-1);
-            ret = ret || DFS( board, i-1, j, tmp, visited );
+            ret = DFS( board, i-1, j, tmp, visited );
+            if( ret ){ return true; }
         }
 
         if( j-1 >= 0 && !visited[i][j-1] ){
             string tmp = s.substr(1,len-1);
-            ret = ret || DFS( board, i, j-1, tmp, visited );
+            ret = DFS( board, i, j-1, tmp, visited );
+            if( ret ){ return true; }
         }
 
         if( i+1 <= m-1 && !visited[i+1][j] ){
             string tmp = s.substr(1,len-1);
-            ret = ret || DFS( board, i+1, j, tmp, visited );
+            ret = DFS( board, i+1, j, tmp, visited );
+            if( ret ){ return true; }
         }
 
         if( j+1 <= n-1 && !visited[i][j+1] ){
             string tmp = s.substr(1,len-1);
-            ret = ret || DFS( board, i, j+1, tmp, visited );
+            ret = DFS( board, i, j+1, tmp, visited );
+            if( ret ){ return true; }
         }
 
-        return ret;
+        return false;
     }
 
     bool exist(vector<vector<char> >& board, string s){
@@ -67,11 +71,6 @@ public:
                     if( ret ){
                         return true;
                     }
-//                    F(k, 0, m-1){
-//                        F(l, 0, n-1){
-//                            visited[k][l] = false;
-//                        }
-//                    }
                 }
             }
         }
