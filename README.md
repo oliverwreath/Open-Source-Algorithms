@@ -35,5 +35,5 @@
 - Word Search.bf.cpp
 - Word Search.cpp
 
-#### Last but not least
+#### Last but not least:
 Have Fun!!
