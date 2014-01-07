@@ -6,6 +6,8 @@
  *	 ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+ 
+ //dummyhead
 
 class Solution {
 public:
