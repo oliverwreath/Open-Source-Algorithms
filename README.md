@@ -2,20 +2,35 @@
 *possible solutions for the leetcode Online-Judge*
 
 #### Happy Coding! 
+- Add Binary.cpp
 - Add Two Numbers.cpp
+- Balanced Binary Tree.cpp
 - Best Time to Buy and Sell Stock II.cpp
 - Best Time to Buy and Sell Stock III.cpp
 - Best Time to Buy and Sell Stock.cpp
 - Binary Tree Inorder Traversal.cpp
 - Binary Tree Level Order Traversal II.cpp
 - Binary Tree Level Order Traversal.cpp
+- Binary Tree Maximum Path Sum.cpp
 - Binary Tree Postorder Traversal.cpp
 - Binary Tree Preorder Traversal.cpp
 - Binary Tree Zigzag Level Order Traversal.cpp
+- Candy.cpp
+- Copy List with Random Pointer.cpp
 - Divide Two Integers.cpp
+- Flatten Binary Tree to Linked List.cpp
 - Implement strStr().cpp
+- Insertion Sort List.cpp
+- Insertion Sort List.ht.cpp
+- Insertion Sort List.vt.cpp
+- Interleaving String.bf.cpp
+- Interleaving String.cpp
 - LRU Cache.cpp
 - Length of Last Word.cpp
+- Linked List Cycle II.cpp
+- Linked List Cycle.cpp
+- Longest Common Prefix.cpp
+- Longest Substring Without Repeating Characters.cpp
 - Maximum Depth of Binary Tree.cpp
 - Maximum Subarray.cpp
 - Merge Sorted Array.cpp
@@ -29,14 +44,21 @@
 - Path Sum II.rec.cpp
 - Path Sum.rec.cpp
 - Plus One.cpp
+- Populating Next Right Pointers in Each Node II.cpp
+- Populating Next Right Pointers in Each Node.cpp
 - Remove Duplicates from Sorted Array II.cpp
 - Remove Duplicates from Sorted Array.cpp
 - Remove Duplicates from Sorted List II.cpp
 - Remove Duplicates from Sorted List.cpp
 - Remove Element.cpp
+- Remove Nth Node From End of List.cpp
 - Reorder List.cpp
+- Reverse Integer.cpp
+- Reverse Linked List II.cpp
+- Reverse Linked List II.swapMN.cpp
 - Roman to Integer.cpp
 - Rotate Image.cpp
+- Rotate List.cpp
 - Same Tree.cpp
 - Search Insert Position.cpp
 - Search a 2D Matrix.cpp
@@ -44,16 +66,27 @@
 - Search in Rotated Sorted Array II.cpp
 - Search in Rotated Sorted Array.cpp
 - Set Matrix Zeroes.cpp
+- Simplify Path.cpp
 - Single Number II.cpp
 - Single Number II.ht.cpp
 - Single Number.cpp
 - Sort Colors.cpp
 - Sort Colors.cs.cpp
+- Sort List.cpp
 - Sqrt(x).cpp
+- String to Integer (atoi).cpp
+- Sudoku Solver.cpp
+- Sudoku Solver.elimination.cpp
+- Sum Root to Leaf Numbers.cpp
+- Symmetric Tree.cpp
+- Symmetric Tree.rec.cpp
 - Trapping Rain Water.cpp
 - Triangle.cpp
 - Triangle.rec.cpp
 - Two Sum.cpp
+- Unique Paths II.cpp
+- Unique Paths.cpp
+- Valid Number.cpp
 - Valid Sudoku.cpp
 - Validate Binary Search Tree.cpp
 - Word Break.cpp
