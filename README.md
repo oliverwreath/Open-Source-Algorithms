@@ -16,17 +16,24 @@
 - Binary Tree Preorder Traversal.cpp
 - Binary Tree Zigzag Level Order Traversal.cpp
 - Candy.cpp
+- Climbing Stairs.cpp
+- Combinations.cpp
+- Container With Most Water.cpp
 - Copy List with Random Pointer.cpp
+- Distinct Subsequences.cpp
 - Divide Two Integers.cpp
 - Flatten Binary Tree to Linked List.cpp
+- Gray Code.cpp
 - Implement strStr().cpp
 - Insertion Sort List.cpp
 - Insertion Sort List.ht.cpp
 - Insertion Sort List.vt.cpp
 - Interleaving String.bf.cpp
 - Interleaving String.cpp
+- Jump Game.cpp
 - LRU Cache.cpp
 - Length of Last Word.cpp
+- Letter Combinations of a Phone Number.cpp
 - Linked List Cycle II.cpp
 - Linked List Cycle.cpp
 - Longest Common Prefix.cpp
@@ -38,6 +45,7 @@
 - Merge k Sorted Lists.cpp
 - Minimum Depth of Binary Tree.cpp
 - Minimum Path Sum.cpp
+- Next Permutation.cpp
 - Partition List.cpp
 - Pascal's Triangle II.cpp
 - Pascal's Triangle.cpp
@@ -73,11 +81,17 @@
 - Sort Colors.cpp
 - Sort Colors.cs.cpp
 - Sort List.cpp
+- Spiral Matrix II.cpp
 - Sqrt(x).cpp
 - String to Integer (atoi).cpp
+- Subsets II.cpp
+- Subsets.cpp
+- Subsets.iter.cpp
 - Sudoku Solver.cpp
 - Sudoku Solver.elimination.cpp
 - Sum Root to Leaf Numbers.cpp
+- Surrounded Regions.cpp
+- Swap Nodes in Pairs.cpp
 - Symmetric Tree.cpp
 - Symmetric Tree.rec.cpp
 - Trapping Rain Water.cpp
@@ -87,6 +101,7 @@
 - Unique Paths II.cpp
 - Unique Paths.cpp
 - Valid Number.cpp
+- Valid Palindrome.cpp
 - Valid Sudoku.cpp
 - Validate Binary Search Tree.cpp
 - Word Break.cpp
