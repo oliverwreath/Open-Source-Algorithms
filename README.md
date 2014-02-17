@@ -1,4 +1,4 @@
-#### Open-Source-Algorithms
+### Open-Source-Algorithms
 
 ##### 1. LeetCode
 *possible solutions for the leetcode Online-Judge*
@@ -114,5 +114,5 @@
 - Word Search.bf.cpp
 - Word Search.cpp
 
-#### Last but not least:
+#### 3. Last but not least:
 Have Fun!!
