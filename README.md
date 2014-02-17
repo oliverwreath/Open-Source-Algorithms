@@ -1,9 +1,12 @@
 ## Open-Source-Algorithms
 
-### leetcode
+### 1. LeetCode
 *possible solutions for the leetcode Online-Judge*
 
-#### Happy Coding! 
+### LeetCode-Java
+- Remove Element.java
+
+#### LeetCode-C++
 - Add Binary.cpp
 - Add Two Numbers.cpp
 - Balanced Binary Tree.cpp
