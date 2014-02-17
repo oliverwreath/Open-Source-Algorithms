@@ -1,9 +1,9 @@
-## Open-Source-Algorithms
+#### Open-Source-Algorithms
 
-#### 1. LeetCode
+##### 1. LeetCode
 *possible solutions for the leetcode Online-Judge*
 
-##### LeetCode-Java
+###### LeetCode-Java
 - Remove Element.java
 
 ###### LeetCode-C++
