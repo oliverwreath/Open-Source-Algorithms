@@ -4,10 +4,12 @@
 *possible solutions for the leetcode Online-Judge*
 
 ###### 1.1 LeetCode-Java
-- Remove Element.java
-- Remove Duplicates from Sorted Array.java
+- Path Sum.java
 - Remove Duplicates from Sorted Array II.java
+- Remove Duplicates from Sorted Array.java
 - Remove Duplicates from Sorted List.java
+- Remove Element.java
+- Two Sum.java
 
 ###### 1.2 LeetCode-C++
 - Add Binary.cpp
