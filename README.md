@@ -3,10 +3,10 @@
 ##### 1. LeetCode
 *possible solutions for the leetcode Online-Judge*
 
-###### LeetCode-Java
+###### 1.1 LeetCode-Java
 - Remove Element.java
 
-###### LeetCode-C++
+###### 1.2 LeetCode-C++
 - Add Binary.cpp
 - Add Two Numbers.cpp
 - Balanced Binary Tree.cpp
