@@ -7,6 +7,7 @@
 - Remove Element.java
 - Remove Duplicates from Sorted Array.java
 - Remove Duplicates from Sorted Array II.java
+- Remove Duplicates from Sorted List.java
 
 ###### 1.2 LeetCode-C++
 - Add Binary.cpp
