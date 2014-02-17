@@ -5,6 +5,7 @@
 
 ###### 1.1 LeetCode-Java
 - Remove Element.java
+- Remove Duplicates from Sorted Array.java
 
 ###### 1.2 LeetCode-C++
 - Add Binary.cpp
