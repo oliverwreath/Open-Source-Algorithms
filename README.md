@@ -4,12 +4,22 @@
 *possible solutions for the leetcode Online-Judge*
 
 ###### 1.1 LeetCode-Java
+- Best Time to Buy and Sell Stock.java
+- Climbing Stairs.java
+- Maximum Subarray.java
+- Merge Two Sorted Lists.java
+- Minimum Path Sum.java
 - Path Sum.java
 - Remove Duplicates from Sorted Array II.java
 - Remove Duplicates from Sorted Array.java
 - Remove Duplicates from Sorted List.java
 - Remove Element.java
+- String to Integer (atoi).java
 - Two Sum.java
+- Unique Paths II.java
+- Unique Paths.java
+- Valid Number.java
+- Valid Parentheses.java
 
 ###### 1.2 LeetCode-C++
 - Add Binary.cpp
