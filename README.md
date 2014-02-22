@@ -7,6 +7,7 @@
 - Best Time to Buy and Sell Stock.java
 - Climbing Stairs.java
 - Maximum Subarray.java
+- Merge Sorted Array.java
 - Merge Two Sorted Lists.java
 - Minimum Path Sum.java
 - Path Sum.java
@@ -19,6 +20,7 @@
 - Unique Paths II.java
 - Unique Paths.java
 - Valid Number.java
+- Valid Palindrome.java
 - Valid Parentheses.java
 
 ###### 1.2 LeetCode-C++
