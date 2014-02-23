@@ -1,9 +1,46 @@
 ### Open-Source-Algorithms
 
-##### 1. LeetCode
-*possible solutions for the leetcode Online-Judge*
+##### 1. Poj
+*possible solutions for the Poj Online-Judge*
 
-###### 1.1 LeetCode-Java
+- 1000
+- 1002
+- 1003
+- 1004
+- 1005
+- 1006
+- 1007
+- 1050
+- 1068
+- 1080
+- 1083
+- 1088
+- 1159
+- 1163
+- 1276
+- 1458
+- 1579
+- 1664
+- 1833
+- 1837
+- 1844
+- 1953
+- 1979
+- 2081
+- 2105
+- 2231
+- 2250
+- 2479
+- 3094
+- 3356
+- 3632
+- 3671
+- 3749
+
+##### 3. LeetCode
+*possible solutions for the LeetCode Online-Judge*
+
+###### 3.1 LeetCode-Java
 - Best Time to Buy and Sell Stock.java
 - Climbing Stairs.java
 - Maximum Subarray.java
@@ -23,7 +60,7 @@
 - Valid Palindrome.java
 - Valid Parentheses.java
 
-###### 1.2 LeetCode-C++
+###### 3.2 LeetCode-C++
 - Add Binary.cpp
 - Add Two Numbers.cpp
 - Balanced Binary Tree.cpp
@@ -131,5 +168,5 @@
 - Word Search.bf.cpp
 - Word Search.cpp
 
-#### 3. Last but not least:
+#### 5. Last but not least:
 Have Fun!!
