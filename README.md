@@ -1,6 +1,6 @@
 ### Open-Source-Algorithms
 
-##### 1. Poj
+##### 1. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
 
 - 1000
@@ -43,7 +43,7 @@
 ##### 3. LeetCode
 *possible solutions for the LeetCode Online-Judge*
 
-###### 3.1 LeetCode-Java
+###### 3.1 LC - Java
 - Add Binary.java
 - Best Time to Buy and Sell Stock.java
 - Climbing Stairs.java
@@ -66,7 +66,7 @@
 - Valid Palindrome.java
 - Valid Parentheses.java
 
-###### 3.2 LeetCode-C++
+###### 3.2 LC - C++
 - Add Binary.cpp
 - Add Two Numbers.cpp
 - Balanced Binary Tree.cpp
