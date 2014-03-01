@@ -40,7 +40,7 @@
 - 3749
 
 
-##### 3. LeetCode
+##### 3. LeetCode - JAVA& C++
 *possible solutions for the LeetCode Online-Judge*
 
 ###### 3.1 LC - Java
