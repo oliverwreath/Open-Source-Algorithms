@@ -45,6 +45,7 @@
 *possible solutions for the LeetCode Online-Judge*
 
 ###### 3.1 LeetCode-Java
+- Add Binary.java
 - Best Time to Buy and Sell Stock.java
 - Climbing Stairs.java
 - Maximum Subarray.java
@@ -57,6 +58,8 @@
 - Remove Duplicates from Sorted List.java
 - Remove Element.java
 - String to Integer (atoi).java
+- Sum Root to Leaf Numbers.java
+- Swap Nodes in Pairs.java
 - Two Sum.java
 - Unique Paths II.java
 - Unique Paths.java
