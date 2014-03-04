@@ -45,13 +45,18 @@
 
 ###### 3.1 LC - Java
 - Add Binary.java
+- Balanced Binary Tree.java
 - Best Time to Buy and Sell Stock.java
+- Binary Tree Postorder Traversal.java
+- Binary Tree Preorder Traversal.java
 - Climbing Stairs.java
+- Linked List Cycle.java
 - Maximum Subarray.java
 - Merge Sorted Array.java
 - Merge Two Sorted Lists.java
 - Minimum Path Sum.java
 - Path Sum.java
+- Plus One.java
 - Remove Duplicates from Sorted Array II.java
 - Remove Duplicates from Sorted Array.java
 - Remove Duplicates from Sorted List.java
