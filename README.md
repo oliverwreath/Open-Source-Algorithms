@@ -64,6 +64,7 @@
 - Remove Duplicates from Sorted List.java
 - Remove Element.java
 - Same Tree.java
+- Single Number II.java
 - Single Number.java
 - String to Integer (atoi).java
 - Sum Root to Leaf Numbers.java
@@ -77,6 +78,10 @@
 - Validate Binary Search Tree.java
 
 ###### 3.2 LC - C++
+- 	3Sum Closest.cpp
+- 3Sum.cpp
+- 3Sum.sketch.cpp
+- 4Sum.cpp
 - Add Binary.cpp
 - Add Two Numbers.cpp
 - Balanced Binary Tree.cpp
@@ -92,11 +97,14 @@
 - Binary Tree Zigzag Level Order Traversal.cpp
 - Candy.cpp
 - Climbing Stairs.cpp
+- Combination Sum II.cpp
+- Combination Sum.cpp
 - Combinations.cpp
 - Container With Most Water.cpp
 - Copy List with Random Pointer.cpp
 - Distinct Subsequences.cpp
 - Divide Two Integers.cpp
+- First Missing Positive.cpp
 - Flatten Binary Tree to Linked List.cpp
 - Gray Code.cpp
 - Implement strStr().cpp
@@ -112,6 +120,7 @@
 - Linked List Cycle II.cpp
 - Linked List Cycle.cpp
 - Longest Common Prefix.cpp
+- Longest Consecutive Sequence.cpp
 - Longest Substring Without Repeating Characters.cpp
 - Maximum Depth of Binary Tree.cpp
 - Maximum Subarray.cpp
@@ -150,6 +159,7 @@
 - Search in Rotated Sorted Array.cpp
 - Set Matrix Zeroes.cpp
 - Simplify Path.cpp
+- Single Number II.c++11.cpp
 - Single Number II.cpp
 - Single Number II.ht.cpp
 - Single Number.cpp
@@ -157,6 +167,7 @@
 - Sort Colors.cs.cpp
 - Sort List.cpp
 - Spiral Matrix II.cpp
+- Spiral Matrix.cpp
 - Sqrt(x).cpp
 - String to Integer (atoi).cpp
 - Subsets II.cpp
@@ -173,6 +184,7 @@
 - Triangle.cpp
 - Triangle.rec.cpp
 - Two Sum.cpp
+- Unique Binary Search Trees.cpp
 - Unique Paths II.cpp
 - Unique Paths.cpp
 - Valid Number.cpp
