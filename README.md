@@ -1,6 +1,6 @@
 ### Open-Source-Algorithms
 
-##### 1. Poj - JAVA& C++
+#### 1. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
 
 - 1000
@@ -40,7 +40,7 @@
 - 3749
 
 
-##### 3. LeetCode - JAVA& C++
+#### 3. LeetCode - JAVA& C++
 *possible solutions for the LeetCode Online-Judge*
 
 ###### 3.1 LC - Java
