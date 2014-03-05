@@ -51,9 +51,11 @@
 - Binary Tree Preorder Traversal.java
 - Climbing Stairs.java
 - Linked List Cycle.java
+- Maximum Depth of Binary Tree.java
 - Maximum Subarray.java
 - Merge Sorted Array.java
 - Merge Two Sorted Lists.java
+- Minimum Depth of Binary Tree.java
 - Minimum Path Sum.java
 - Path Sum.java
 - Plus One.java
@@ -61,6 +63,8 @@
 - Remove Duplicates from Sorted Array.java
 - Remove Duplicates from Sorted List.java
 - Remove Element.java
+- Same Tree.java
+- Single Number.java
 - String to Integer (atoi).java
 - Sum Root to Leaf Numbers.java
 - Swap Nodes in Pairs.java
@@ -70,6 +74,7 @@
 - Valid Number.java
 - Valid Palindrome.java
 - Valid Parentheses.java
+- Validate Binary Search Tree.java
 
 ###### 3.2 LC - C++
 - Add Binary.cpp
