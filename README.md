@@ -49,7 +49,9 @@
 - Best Time to Buy and Sell Stock.java
 - Binary Tree Postorder Traversal.java
 - Binary Tree Preorder Traversal.java
+- Candy.java
 - Climbing Stairs.java
+- Length of Last Word.java
 - Linked List Cycle.java
 - Maximum Depth of Binary Tree.java
 - Maximum Subarray.java
@@ -63,7 +65,9 @@
 - Remove Duplicates from Sorted Array.java
 - Remove Duplicates from Sorted List.java
 - Remove Element.java
+- Reverse Words in a String.java
 - Same Tree.java
+- Search Insert Position.java
 - Single Number II.java
 - Single Number.java
 - String to Integer (atoi).java
