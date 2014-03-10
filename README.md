@@ -205,7 +205,7 @@
 - Word Search.bf.cpp
 - Word Search.cpp
 
-###### 3.2 LC - Python
+###### 3.3 LC - Python
 - Climbing Stairs.py
 
 #### 5. Last but not least:
