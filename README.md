@@ -40,7 +40,7 @@
 - 3749
 
 
-#### 3. LeetCode - JAVA& C++
+#### 3. LeetCode - JAVA, C++ and Python
 *possible solutions for the LeetCode Online-Judge*
 
 ###### 3.1 LC - Java
@@ -204,6 +204,9 @@
 - Word Break.rec.cpp
 - Word Search.bf.cpp
 - Word Search.cpp
+
+###### 3.2 LC - Python
+- Climbing Stairs.py
 
 #### 5. Last but not least:
 Have Fun!!!
