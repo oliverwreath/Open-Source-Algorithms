@@ -208,5 +208,5 @@
 #### 3.3 LC - Python
 - Climbing Stairs.py
 
-#### 5. Last but not least:
+### 5. Last but not least:
 Have Fun!!!
