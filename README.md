@@ -44,6 +44,7 @@
 *possible solutions for the LeetCode Online-Judge*
 
 ###### 3.1 LC - Java
+- 3Sum.java
 - Add Binary.java
 - Balanced Binary Tree.java
 - Best Time to Buy and Sell Stock.java
@@ -70,6 +71,7 @@
 - Reverse Words in a String.java
 - Same Tree.java
 - Search Insert Position.java
+- Set Matrix Zeroes.java
 - Single Number II.java
 - Single Number.java
 - String to Integer (atoi).java
@@ -81,6 +83,7 @@
 - Valid Number.java
 - Valid Palindrome.java
 - Valid Parentheses.java
+- Valid Sudoku.java
 - Validate Binary Search Tree.java
 
 ###### 3.2 LC - C++
