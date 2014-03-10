@@ -1,6 +1,6 @@
-### Open-Source-Algorithms
+## Open-Source-Algorithms
 
-#### 1. Poj - JAVA& C++
+### 1. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
 
 - 1000
@@ -40,10 +40,10 @@
 - 3749
 
 
-#### 3. LeetCode - JAVA, C++ and Python
+### 3. LeetCode - JAVA, C++ and Python
 *possible solutions for the LeetCode Online-Judge*
 
-###### 3.1 LC - Java
+#### 3.1 LC - Java
 - 3Sum.java
 - Add Binary.java
 - Balanced Binary Tree.java
@@ -86,7 +86,7 @@
 - Valid Sudoku.java
 - Validate Binary Search Tree.java
 
-###### 3.2 LC - C++
+#### 3.2 LC - C++
 - 	3Sum Closest.cpp
 - 3Sum.cpp
 - 3Sum.sketch.cpp
@@ -205,7 +205,7 @@
 - Word Search.bf.cpp
 - Word Search.cpp
 
-###### 3.3 LC - Python
+#### 3.3 LC - Python
 - Climbing Stairs.py
 
 #### 5. Last but not least:
