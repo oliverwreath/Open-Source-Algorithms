@@ -67,6 +67,7 @@
 - Remove Duplicates from Sorted Array.java
 - Remove Duplicates from Sorted List.java
 - Remove Element.java
+- Remove Element.out.java
 - Remove Nth Node From End of List.java
 - Reverse Words in a String.java
 - Same Tree.java
@@ -207,6 +208,7 @@
 
 #### 3.3 LC - Python
 - Climbing Stairs.py
+- Remove Element.py
 
 ### 5. Last but not least:
 Have Fun!!!
