@@ -1,4 +1,4 @@
-## Open-Source-Algorithms-
+## Open-Source-Algorithms
 
 ### 1. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
