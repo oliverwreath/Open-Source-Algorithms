@@ -1,0 +1,37 @@
+package com.java.net.chatroom.demo2;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.Socket;
+
+public class Receive implements Runnable{
+	private BufferedReader br;
+	private String infoString;
+	private boolean isRunning = true; 
+	
+	public Receive(){}
+	public Receive(Socket client){
+		try {
+			br = new BufferedReader(new InputStreamReader(client.getInputStream()));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			isRunning = false;
+			CloseUtil.closeAll(br);
+		}
+	}
+	
+	public void Receive(){
+		String msg = "";
+		br.readLin();
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		if( isRunning ){
+			Receive();
+		}
+	}
+}

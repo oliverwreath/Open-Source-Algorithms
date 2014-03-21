@@ -1,0 +1,11 @@
+package com.java.net.chatroom.demo2;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Receive {
+	Receive(){}
+	Receive(){
+		BufferedReader br = new BufferedReader(new InputStreamReader(client.getInputStream()));
+	}
+}

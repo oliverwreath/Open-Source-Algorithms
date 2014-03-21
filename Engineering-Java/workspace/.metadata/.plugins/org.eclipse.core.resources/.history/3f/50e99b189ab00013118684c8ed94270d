@@ -1,0 +1,13 @@
+package com.java.net.chatroom.demo2;
+
+import java.io.Closeable;
+
+public class CloseUtil {
+	public static void closeAll(Closeable... io){
+		for( Closeable temp :io  ){
+			if( temp != null ){
+				temp.close();
+			}
+		}
+	}
+}

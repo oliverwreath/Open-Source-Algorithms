@@ -1,0 +1,7 @@
+package com.java.net.chatroom.demo2;
+
+public class CloseUtil {
+	public static void closeAll(){
+		
+	}
+}

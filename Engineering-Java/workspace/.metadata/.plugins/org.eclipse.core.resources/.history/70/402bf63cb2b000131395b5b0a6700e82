@@ -1,0 +1,74 @@
+package com.java.chatroom.demo2;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class MultiServer { 
+	public static void main(String [] args) throws IOException{ 
+		ServerSocket serverSocket = new ServerSocket(9999); 
+		
+		while(true){ 
+			System.out.println("等待客户端连接!"); 
+			Socket server = serverSocket.accept(); 
+			
+			
+
+		}
+	} 
+	
+	/*
+	 * 一个客户端一个频道
+	 */
+	private class MyChannel implements Runnable{
+		private BufferedReader br;
+		private BufferedWriter bw;
+		private boolean isRunning = true; 
+		
+		public MyChannel(Socket server){
+			try {
+				br = new BufferedReader(new InputStreamReader(server.getInputStream()));
+				bw = new BufferedWriter(new OutputStreamWriter(server.getOutputStream())); 
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				isRunning = false;
+				CloseUtil.closeAll(br, bw);
+			} 
+		}
+		
+		private String read(){
+			String msg = "";
+			try {
+				br.readLine();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				isRunning = false;
+				CloseUtil.closeAll(br, bw);
+			}
+			return msg; 
+		}
+		
+		private void write(){
+			
+		}
+		
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			while(isRunning){ 
+				String msg = br.readLine(); 
+				System.out.println(msg); 
+				
+				bw.write("服务器-->" + msg); 
+				bw.newLine(); 
+				bw.flush(); 
+			} 
+		}
+	}
+} 

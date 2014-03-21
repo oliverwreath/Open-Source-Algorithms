@@ -1,0 +1,54 @@
+package com.java.net.chatroom.demo2;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+
+public class Send implements Runnable{
+	private BufferedReader console;
+	private String infoString;
+	private BufferedWriter bw;
+	private boolean isRunning = true; 
+	
+	public Send(){}
+	public Send(Socket client){
+		try {
+			console = new BufferedReader( new InputStreamReader(System.in) ); 
+			infoString = console.readLine();
+			bw = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			isRunning = false; 
+			CloseUtil.closeAll(console, bw);
+		}
+	}
+	
+	
+	//get msg from console 
+	public String getStrFormConsole(){
+		try {
+			return console.readLine();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "";
+	}
+	
+	public void send(){
+		String msg = getStrFormConsole();
+		if( msg != null && !msg.equals("") ){
+			
+		}
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

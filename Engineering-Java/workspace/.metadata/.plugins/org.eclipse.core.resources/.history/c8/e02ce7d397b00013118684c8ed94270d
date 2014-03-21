@@ -1,0 +1,31 @@
+package com.java.net.chatroom.demo2;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+
+public class Send implements Runnable{
+	public Send(){}
+	public Send(Socket client){
+		try {
+			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	//get msg from console 
+	public String getStrFormConsole(){
+		
+		return "";
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

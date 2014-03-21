@@ -1,0 +1,19 @@
+package com.java.net.chatroom.demo1;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class Client {
+	public static void main(String [] args) throws UnknownHostException, IOException{
+		Socket client = new Socket("localhost", 8888);
+		
+		Thread th = new Thread(new Send()).star();
+		
+		while(true){
+			String echo = br.readLine();
+			System.out.println(echo);
+		}
+	}
+	
+}

@@ -1,0 +1,11 @@
+package com.java.net.chatroom.demo2;
+
+import java.io.BufferedWriter;
+import java.io.OutputStreamWriter;
+
+public class Send {
+	Send(){}
+	Send(Client){
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
+	}
+}

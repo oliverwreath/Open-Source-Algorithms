@@ -1,0 +1,89 @@
+package com.java.chatroom.demo2;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
+
+public class MultiServer { 
+	private List<MyChannel> all = new ArrayList<MyChannel>();
+	
+	public static void main(String [] args) throws IOException{ 
+		new MultiServer().start();
+	} 
+	
+	public void start() throws IOException{
+		ServerSocket serverSocket = new ServerSocket(9999); 
+		
+		while(true){ 
+			System.out.println("等待客户端连接!"); 
+			Socket server = serverSocket.accept(); 
+			
+			MyChannel channel = new MyChannel(server);
+			all.add(channel);
+			new Thread(channel).start();
+		}
+	}
+	/*
+	 * 一个客户端一个频道
+	 */
+	private class MyChannel implements Runnable{
+		private BufferedReader br;
+		private BufferedWriter bw;
+		private boolean isRunning = true; 
+		
+		public MyChannel(Socket server){
+			try {
+				br = new BufferedReader(new InputStreamReader(server.getInputStream()));
+				bw = new BufferedWriter(new OutputStreamWriter(server.getOutputStream())); 
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				isRunning = false;
+				CloseUtil.closeAll(br, bw);
+			} 
+		}
+		
+		private String read(){
+			String msg = "";
+			try {
+				br.readLine();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				isRunning = false;
+				CloseUtil.closeAll(br, bw);
+			}
+			return msg; 
+		}
+		
+		private void write(String msg){
+			if( msg != null || msg.equals("") ){
+				return ;
+			}
+			try {
+				bw.write(msg);
+				bw.newLine();
+				bw.flush();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				isRunning = false;
+				CloseUtil.closeAll(br, bw);
+			}
+		}
+		
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			while(isRunning){ 
+				write(read());
+			} 
+		}
+	}
+} 
