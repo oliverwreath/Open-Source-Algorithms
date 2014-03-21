@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="471" localization="plugin" name="%Plugin.name" project="org.eclipse.ui.examples.multipageeditor" provider="%Plugin.providerName">
+		<library name="multipageeditor.jar"/>
+	</bundle>
+</map>

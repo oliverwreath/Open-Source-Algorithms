@@ -1,0 +1,8 @@
+package com.java.hello;
+
+public class Welcome {
+	public static void main( String [] args ){
+		Solutions sl = new Solutions();
+		sl.visualCalendar( );
+	}
+}
