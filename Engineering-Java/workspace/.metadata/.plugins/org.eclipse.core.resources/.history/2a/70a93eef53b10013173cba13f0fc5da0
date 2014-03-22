@@ -1,0 +1,69 @@
+package com.java.chatroom.privatechat4;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+
+public class Send implements Runnable{
+	private BufferedReader console;
+	private BufferedWriter bw;
+	private boolean isRunning = true; 
+	private String id;
+	
+	public Send(){
+		console = new BufferedReader( new InputStreamReader(System.in) );
+	}
+	public Send(Socket client, String id){
+		this();
+		try {
+			bw = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
+			this.id = id;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			isRunning = false; 
+			CloseUtil.closeAll(console, bw);
+		}
+	}
+	
+	//get msg from console 
+	public String getStrFormConsole(){
+		String msg = "";
+		try {
+			msg = console.readLine();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			isRunning = false;
+			CloseUtil.closeAll(console, bw);
+		}
+		return msg;
+	}
+	
+	public void send(){
+		String msg = getStrFormConsole();
+		if( msg != null && !msg.equals("") ){
+			try {
+				bw.write(msg);
+				bw.newLine();
+				bw.flush();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				isRunning = false;
+				CloseUtil.closeAll( console, bw );
+			}
+		}
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		while( isRunning ){
+			send();
+		}
+	}
+}
