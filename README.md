@@ -2,7 +2,7 @@
 
 ## I Java-Engineering
 ### 1. Chatroom Proj. - Threading, Socket Programming!
-### 2. Spring - AOP.
+### 2. Frameworks - Hibernate, Struts, Spring. 
 
 ## II Algorithms
 ### 1. Poj - JAVA& C++
