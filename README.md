@@ -1,5 +1,10 @@
 ## Open-Source-Algorithms
 
+## I Java-Engineering
+### 1. Chatroom Proj. - Threading, Socket Programming!
+### 2. Frameworks - Hibernate, Struts, Spring. 
+
+## II Algorithms
 ### 1. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
  
@@ -210,5 +215,5 @@
 - Climbing Stairs.py
 - Remove Element.py
 
-### 5. Last but not least:
-Have Fun!!!
+#### 5. Last but not least:
+Have Fun!!!!
