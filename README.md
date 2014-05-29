@@ -1,10 +1,15 @@
 ## Open-Source-Algorithms
 
 ## I Java-Engineering
-### 1. Chatroom Proj. - Threading, Socket Programming!
-### 2. Frameworks - Hibernate, Struts, Spring. 
+###### 1. Chatroom Proj. - Threading, Socket Programming!
+###### 2. Frameworks - Hibernate, Struts, Spring. 
 
 ## II Algorithms
+### 1. TopCoder
+-SRM-144
+-SRM-146
+-SRM-147
+
 ### 1. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
  
