@@ -5,10 +5,11 @@
 ###### 2. Frameworks - Hibernate, Struts, Spring. 
 
 ## II Algorithms
-### 1. TopCoder
+### 1. TopCoder - C++
 - SRM-144
 - SRM-146
 - SRM-147
+
 *SRM - Algorithms Single Round Match*
 
 ### 1. Poj - JAVA& C++
@@ -50,6 +51,9 @@
 - 3671
 - 3749
 
+### 1. Uva - C++
+*possible solutions for the Uva Online-Judge*
+- 572 - Oil Deposits.cpp
 
 ### 3. LeetCode - JAVA, C++ and Python
 *possible solutions for the LeetCode Online-Judge*
@@ -99,7 +103,7 @@
 - Validate Binary Search Tree.java
 
 #### 3.2 LC - C++
-- 	3Sum Closest.cpp
+- 3Sum Closest.cpp
 - 3Sum.cpp
 - 3Sum.sketch.cpp
 - 4Sum.cpp
