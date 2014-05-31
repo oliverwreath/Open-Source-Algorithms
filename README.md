@@ -6,9 +6,13 @@
 
 ## II Algorithms
 ### 1. TopCoder - C++
-- SRM-144
-- SRM-146
-- SRM-147
+- SRM-144	
+- SRM-145	
+- SRM-146	
+- SRM-147	
+- SRM-148	
+- SRM-149	
+- TCHS-SRM-1
 
 *SRM - Algorithms Single Round Match*
 
