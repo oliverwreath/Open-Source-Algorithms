@@ -29,16 +29,20 @@ public:
 		ret.insert(ret.begin(), '.');
 
 		int cnt = 1;
-		do{
-			if( (cnt+1) % 3 == 0 ){
+		cnt++;
+		ret.insert(ret.begin(), dollars % 10 + '0');
+		dollars /= 10;
+		while( dollars > 0 ){
+			if( (cnt-1) % 3 == 0 ){
 				ret.insert(ret.begin(), ',');
 			}
 			cnt++;
 			ret.insert(ret.begin(), dollars % 10 + '0');
 			dollars /= 10;
-		}while( dollars > 0 );
+		}
 		ret.insert(ret.begin(), '$');
 
-		return string(ret.begin(), ret.end());
+		return string(ret.begin(), ret.end()); 
 	}
 };
+
