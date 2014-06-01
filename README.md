@@ -16,9 +16,26 @@
 
 *SRM - Algorithms Single Round Match*
 
-### 1. Poj - JAVA& C++
+### 2. Ural - http://acm.timus.ru/ - C++
+*possible solutions for the Ural Online-Judge*
+- 1001. Reverse Root.cpp
+- 1197. Lonesome Knight.cpp
+- 1197. Lonesome Knight.java
+- 1264. Workdays.cpp
+- 1264. Workdays.java
+- 1293. Eniya.cpp
+- 1293. Eniya.java
+- 1313. Some Words about Sport.cpp
+- 1313. Some Words about Sport.java
+- 1409. Two Gangsters.cpp
+- 1409. Two Gangsters.java
+
+### 3. Uva - http://uva.onlinejudge.org/ - C++
+*possible solutions for the Uva Online-Judge*
+- 572 - Oil Deposits.cpp
+
+### 4. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
- 
 - 1000
 - 1002
 - 1003
@@ -55,23 +72,10 @@
 - 3671
 - 3749
 
-### 1. Ural - http://acm.timus.ru/ - C++
-- 1001. Reverse Root.cpp
-- 1264. Workdays.cpp
-- 1264. Workdays.java
-- 1293. Eniya.cpp
-- 1293. Eniya.java
-- 1409. Two Gangsters.cpp
-- 1409. Two Gangsters.java
-
-### 1. Uva - C++
-*possible solutions for the Uva Online-Judge*
-- 572 - Oil Deposits.cpp
-
-### 3. LeetCode - JAVA, C++ and Python
+### 5. LeetCode - JAVA, C++ and Python
 *possible solutions for the LeetCode Online-Judge*
 
-#### 3.1 LC - Java
+#### 5.1 LC - Java
 - 3Sum.java
 - Add Binary.java
 - Balanced Binary Tree.java
@@ -115,7 +119,7 @@
 - Valid Sudoku.java
 - Validate Binary Search Tree.java
 
-#### 3.2 LC - C++
+#### 5.2 LC - C++
 - 3Sum Closest.cpp
 - 3Sum.cpp
 - 3Sum.sketch.cpp
@@ -234,9 +238,9 @@
 - Word Search.bf.cpp
 - Word Search.cpp
 
-#### 3.3 LC - Python
+#### 5.3 LC - Python
 - Climbing Stairs.py
 - Remove Element.py
 
-#### 5. Last but not least:
+#### 7. Last but not least:
 Have Fun!!!!
