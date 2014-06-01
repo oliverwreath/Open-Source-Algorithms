@@ -1,8 +1,8 @@
 ## Open-Source-Algorithms
 
-## I Java-Engineering
-###### 1. Threading, Socket Programming!
-###### 2. Frameworks - Hibernate, Struts, Spring. 
+## I Engineering 
+### 1. Threading, Socket Programming! 
+### 2. assert and testing. 
 
 ## II Algorithms
 ### 1. TopCoder - C++
