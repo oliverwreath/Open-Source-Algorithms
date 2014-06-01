@@ -55,6 +55,15 @@
 - 3671
 - 3749
 
+### 1. Ural - http://acm.timus.ru/ - C++
+- 1001. Reverse Root.cpp
+- 1264. Workdays.cpp
+- 1264. Workdays.java
+- 1293. Eniya.cpp
+- 1293. Eniya.java
+- 1409. Two Gangsters.cpp
+- 1409. Two Gangsters.java
+
 ### 1. Uva - C++
 *possible solutions for the Uva Online-Judge*
 - 572 - Oil Deposits.cpp
