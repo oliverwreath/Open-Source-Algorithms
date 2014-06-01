@@ -1,7 +1,7 @@
 ## Open-Source-Algorithms
 
 ## I Java-Engineering
-###### 1. Chatroom Proj. - Threading, Socket Programming!
+###### 1. Threading, Socket Programming!
 ###### 2. Frameworks - Hibernate, Struts, Spring. 
 
 ## II Algorithms
