@@ -3,7 +3,7 @@ public class Solution {
 		int len = s.length();
 		int begin = 0;
 		int end = len-1;
-		
+
 		//handling proceeding and trailing spaces 
 		while( begin <= end && s.charAt(begin) == ' ' ){
 			begin++;
@@ -11,10 +11,10 @@ public class Solution {
 		while( begin <= end && s.charAt(end) == ' ' ){
 			end--;
 		}
-
 		if( begin > end ){
 			return new String();
 		}
+
 		//counting the spaces 
 		int allSpCnt = 0;
 		int tmpCnt = 0;
@@ -23,7 +23,7 @@ public class Solution {
 				tmpCnt++;
 			}else{
 				if( tmpCnt > 1 ){
-					allSpCnt += tmpCnt - 1;	
+					allSpCnt += tmpCnt - 1; 
 				}
 				tmpCnt = 0;
 			}
@@ -51,12 +51,12 @@ public class Solution {
 				tmpEnd = begin;
 			}
 		}
-		
+
 		int tmpTmpEnd = tmpEnd;
 		while( begin <= tmpTmpEnd ){ 
 			ret[fillingIdx--] = s.charAt(tmpTmpEnd--); 
 		}
-		
+
 		return new String(ret);
 	}
 }
