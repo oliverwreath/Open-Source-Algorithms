@@ -21,7 +21,7 @@
 - ride.cpp
 - test.cpp
 
-### 2. Ural - http://acm.timus.ru/ - C++11, Java 1.7
+### 3. Ural - http://acm.timus.ru/ - C++11, Java 1.7
 *possible solutions for the Ural Online-Judge*
 - 1001. Reverse Root.cpp
 - 1068. Sum.cpp
@@ -46,11 +46,11 @@
 - 1409. Two Gangsters.java
 - 1654. Cipher Message.cpp
 
-### 3. Uva - http://uva.onlinejudge.org/ - C++
+### 4. Uva - http://uva.onlinejudge.org/ - C++
 *possible solutions for the Uva Online-Judge*
 - 572 - Oil Deposits.cpp
 
-### 4. Poj - JAVA& C++
+### 5. Poj - JAVA& C++
 *possible solutions for the Poj Online-Judge*
 - 1000
 - 1002
@@ -88,10 +88,10 @@
 - 3671
 - 3749
 
-### 5. LeetCode - JAVA, C++ and Python
+### 7. LeetCode - JAVA, C++ and Python
 *possible solutions for the LeetCode Online-Judge*
 
-#### 5.1 LC - Java
+#### 7.1 LC - Java
 - 3Sum.java
 - Add Binary.java
 - Balanced Binary Tree.java
@@ -135,7 +135,7 @@
 - Valid Sudoku.java
 - Validate Binary Search Tree.java
 
-#### 5.2 LC - C++
+#### 7.2 LC - C++
 - 3Sum Closest.cpp
 - 3Sum.cpp
 - 3Sum.sketch.cpp
@@ -254,9 +254,9 @@
 - Word Search.bf.cpp
 - Word Search.cpp
 
-#### 5.3 LC - Python
+#### 7.3 LC - Python
 - Climbing Stairs.py
 - Remove Element.py
 
-#### 7. Last but not least:
+#### 8. Last but not least:
 Have Fun!!!!
