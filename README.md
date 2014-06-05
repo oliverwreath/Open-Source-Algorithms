@@ -5,7 +5,7 @@
 ### 2. assert and testing. 
 
 ## II Algorithms
-### 1. TopCoder - C++
+### 1. TopCoder - C++11
 - SRM-144	
 - SRM-145	
 - SRM-146	
@@ -16,19 +16,33 @@
 
 *SRM - Algorithms Single Round Match*
 
-### 2. Ural - http://acm.timus.ru/ - C++
+### 2. USACO - C++11
+- 1.1
+- 1.2
+
+### 2. Ural - http://acm.timus.ru/ - C++11, Java 1.7
 *possible solutions for the Ural Online-Judge*
 - 1001. Reverse Root.cpp
+- 1068. Sum.cpp
+- 1068. Sum.java
+- 1100. Final Standings.cpp
+- 1126. Magnetic Storms.cpp
+- 1126. Magnetic Storms.java
 - 1197. Lonesome Knight.cpp
 - 1197. Lonesome Knight.java
+- 1209. 1, 10, 100, 1000.cpp
+- 1209. 1, 10, 100, 1000.java
 - 1264. Workdays.cpp
 - 1264. Workdays.java
 - 1293. Eniya.cpp
 - 1293. Eniya.java
 - 1313. Some Words about Sport.cpp
 - 1313. Some Words about Sport.java
+- 1319. Hotel.cpp
+- 1319. Hotel.java
 - 1409. Two Gangsters.cpp
 - 1409. Two Gangsters.java
+- 1654. Cipher Message.cpp
 
 ### 3. Uva - http://uva.onlinejudge.org/ - C++
 *possible solutions for the Uva Online-Judge*
