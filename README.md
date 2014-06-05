@@ -17,8 +17,9 @@
 *SRM - Algorithms Single Round Match*
 
 ### 2. USACO - C++11
-- 1.1
-- 1.2
+- gift1.cpp
+- ride.cpp
+- test.cpp
 
 ### 2. Ural - http://acm.timus.ru/ - C++11, Java 1.7
 *possible solutions for the Ural Online-Judge*
