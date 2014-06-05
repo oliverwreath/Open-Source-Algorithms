@@ -37,6 +37,7 @@
 - 1264. Workdays.java
 - 1293. Eniya.cpp
 - 1293. Eniya.java
+- 1306. Sequence Median.cpp
 - 1313. Some Words about Sport.cpp
 - 1313. Some Words about Sport.java
 - 1319. Hotel.cpp
