@@ -21,7 +21,7 @@
 - ride.cpp
 - test.cpp
 
-### 3. Ural - http://acm.timus.ru/ - C++11, Java 1.7
+### 3. Ural - http://acm.timus.ru/ - C++11, Java 1.8
 *possible solutions for the Ural Online-Judge*
 - 1001. Reverse Root.cpp
 - 1068. Sum.cpp
@@ -45,6 +45,10 @@
 - 1409. Two Gangsters.cpp
 - 1409. Two Gangsters.java
 - 1654. Cipher Message.cpp
+- 2012. About Grisha N.cpp
+- 2012. About Grisha N.java
+- 2023. Donald is a postman.cpp
+- 2023. Donald is a postman.java
 
 ### 4. Uva - http://uva.onlinejudge.org/ - C++
 *possible solutions for the Uva Online-Judge*
