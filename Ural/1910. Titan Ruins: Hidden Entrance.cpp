@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <unordered_map>
 #include <string>
@@ -21,7 +20,7 @@ int main(){
 	cin >> n;
 	vector<int> vt = vector<int>(n, 0); 
 	int tmp = 0;
-	for(int i = 0; i <= n; i++){
+	for(int i = 0; i < n; i++){
 		cin >> tmp;  
 		vt[i] = tmp;
 	}
@@ -42,4 +41,3 @@ int main(){
 	
 	return 0;
 }
-
